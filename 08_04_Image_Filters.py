@@ -2,12 +2,12 @@ import cv2
 import numpy as np
 
 # Load sample images.
-flower    = cv2.imread('./visuals/flowers.jpg')
-house     = cv2.imread('./visuals/house.jpg')
-monument  = cv2.imread('./visuals/monument.jpg')
-santorini = cv2.imread('./visuals/santorini.jpg')
-new_york  = cv2.imread('./visuals/new-york.jpg')
-coast     = cv2.imread('./visuals/california-coast.jpg')
+flower    = cv2.imread('flowers.jpg')
+house     = cv2.imread('house.jpg')
+monument  = cv2.imread('monument.jpg')
+santorini = cv2.imread('santorini.jpg')
+new_york  = cv2.imread('new-york.jpg')
+coast     = cv2.imread('california-coast.jpg')
 
 # Function to display original and filtered images.
 def plot(img1, img2):
